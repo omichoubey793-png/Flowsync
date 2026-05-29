@@ -2,8 +2,8 @@
   "name": "flowsync-root",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix cms-frontend\" \"npm run dev --prefix flowsunc-backend\"",
-    "install-all": "npm install --prefix cms-frontend && npm install --prefix flowsunc-backend"
+    "dev": "concurrently \"npm run dev --prefix cms-frontend\" \"npm run dev --prefix flowsync-backend\"",
+    "install-all": "npm install --prefix cms-frontend && npm install --prefix flowsync-backend"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
