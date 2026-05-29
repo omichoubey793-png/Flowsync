@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+cms-frontend/node_modules/
+flowsunc-backend/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+cms-frontend/.env
+flowsunc-backend/.env
+
+# Build/Production outputs
+dist/
+dist-ssr/
+cms-frontend/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
